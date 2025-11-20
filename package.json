@@ -1,0 +1,30 @@
+{
+  "name": "job-application-assistant",
+  "version": "1.0.0",
+  "description": "Automated job application tool with CV matching and GitHub tracking",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve ."
+  },
+  "keywords": [
+    "job-search",
+    "automation",
+    "cv-parsing",
+    "application-tracking",
+    "github",
+    "career"
+  ],
+  "author": "Islam Oc",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/islamoc/job-application.git"
+  },
+  "bugs": {
+    "url": "https://github.com/islamoc/job-application/issues"
+  },
+  "homepage": "https://github.com/islamoc/job-application#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
