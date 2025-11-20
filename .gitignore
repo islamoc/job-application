@@ -1,49 +1,28 @@
 # Dependencies
 node_modules/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Generated application data
-applications/
-emails/
-matches/
-
-# OS files
+# OS
 .DS_Store
 Thumbs.db
 
-# IDE files
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
-# Logs
-logs/
-*.log
-
-# Temporary files
-tmp/
-temp/
-
-# Build outputs
-dist/
-build/
-
-# Personal data (CV uploads)
-uploads/
-*.pdf
-
-# Credentials
-credentials.json
-token.json
-config.json
+# Application data
+applications.json
+applications/
+emails/
+matches/
